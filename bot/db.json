@@ -1,0 +1,414 @@
+[
+  {
+    "is_the_same": false,
+    "description": "The item consists of four small, rectangular green blocks arranged in an L-shape. Each block appears to be approximately 5 cm x 3 cm x 2 cm. The blocks are glossy and have a uniform color. They are positioned near the center of the box bottom, which measures 45 cm x 33 cm."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item consists of four small, rectangular green blocks arranged in an L-shape. Each block appears to be approximately 5 cm x 3 cm x 2 cm. The blocks are glossy and have a uniform color. They are positioned near the center of the box bottom, which measures 45 cm x 33 cm."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item consists of four small, rectangular green blocks arranged in an L-shape. Each block appears to be approximately 5 cm x 3 cm x 2 cm. The blocks are glossy and have a uniform color. They are positioned near the center of the box bottom, which measures 45 cm x 33 cm."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item consists of four small, rectangular green blocks arranged in an L-shape. Each block appears to be approximately 5 cm x 3 cm x 2 cm. The blocks are glossy and have a uniform color. They are positioned near the center of the box bottom, which measures 45 cm x 33 cm."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a cylindrical mug with a handle, positioned near the center of the box bottom. The mug appears to be approximately 10 cm in height and 8 cm in diameter. It has a glossy finish and a uniform color. The handle is attached to the side of the mug."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a rectangular book positioned near the center of the box bottom. The book appears to be approximately 30 cm in height and 20 cm in width. It has a dark cover with text and icons on the front."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a rectangular book positioned near the center of the box bottom. The book appears to be approximately 30 cm in height and 20 cm in width. It has a dark cover with text and icons on the front."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a rectangular book positioned near the center of the box bottom. The book appears to be approximately 30 cm in height and 20 cm in width. It has a dark cover with text and icons on the front."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a rectangular book positioned near the center of the box bottom. The book appears to be approximately 30 cm in height and 20 cm in width. It has a dark cover with text and icons on the front."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a rectangular book positioned near the center of the box bottom. The book appears to be approximately 30 cm in height and 20 cm in width. It has a dark cover with text and icons on the front."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a small green object located near the bottom left corner of the box. It appears to be irregularly shaped and significantly smaller than the previously described book."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a small green object located near the bottom left corner of the box. It appears to be irregularly shaped and significantly smaller than the previously described book."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the right side of the box. It is circular, with a diameter of approximately 10 cm. The tape is yellow and appears to be unused, with the inner cardboard core visible."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a small, irregularly shaped object located near the bottom left corner of the box. It appears to be green with some black areas, possibly a piece of plastic or a small toy. The size is approximately 5 cm in length."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a small, irregularly shaped object located near the bottom left corner of the box. It appears to be green with some black areas, possibly a piece of plastic or a small toy. The size is approximately 5 cm in length."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a roll of tape located near the upper right corner of the box. It appears to be yellow with a hollow center, typical of adhesive tape rolls. The diameter is approximately 10 cm."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a book located near the upper right corner of the box. The cover is dark with text that reads 'System Design Interview'. The book appears to be rectangular, approximately 20 cm in width and 25 cm in height."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a book located near the bottom of the box. The cover is dark with text that reads 'System Design Interview'. The book appears to be rectangular, approximately 20 cm in width and 25 cm in height."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a book located near the bottom of the box. The cover is dark with text that reads 'System Design Interview'. The book appears to be rectangular, approximately 20 cm in width and 25 cm in height."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a book located near the bottom of the box. The cover is dark with text that reads 'System Design Interview'. The book appears to be rectangular, approximately 20 cm in width and 25 cm in height."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a pair of headphones located near the bottom of the box. The headphones are black with a visible headband and ear cups. The cable is coiled and extends from one of the ear cups. The headphones appear to be approximately 20 cm in width and 15 cm in height."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a roll of tape located near the bottom right corner of the box. The tape is brown and appears to be approximately 10 cm in diameter and 3 cm in width."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the bottom right corner of the box. The tape is brown and appears to be approximately 10 cm in diameter and 3 cm in width."
+  },
+  {
+    "is_the_same": true,
+    "description": "The item is a roll of tape located near the bottom right corner of the box. The tape is brown and appears to be approximately 10 cm in diameter and 3 cm in width."
+  },
+  {
+    "is_the_same": false,
+    "description": "The item is a small, rectangular electronic device located near the center of the box. It is black with a glossy finish, approximately 12 cm in length, 7 cm in width, and 1 cm in thickness. The device has a screen on one side and several buttons along the edges."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image is mostly dark with a small visible area showing a greenish hue. No distinct item or features can be identified due to the lack of visibility."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with red handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a pair of scissors with dark handles placed on a light-colored surface. The scissors are approximately 20 cm in length. The surface appears to be a flat, possibly paper or cardboard material, with visible lines or folds."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a book with a dark blue cover titled 'System Design Interview'. The book is placed on a light-colored surface, possibly paper or cardboard. The book appears to be rectangular, approximately 25 cm in height and 18 cm in width. There is also a black cable or wire visible near the book."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a book with a dark blue cover titled 'System Design Interview'. The book is placed on a light-colored surface, possibly paper or cardboard. The book appears to be rectangular, approximately 25 cm in height and 18 cm in width. There is also a black cable or wire visible near the book."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a T-shaped object with a purple color, possibly made of plastic or metal. It is placed on a light-colored surface, likely the bottom of a box. The object appears to be composed of rectangular segments. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a T-shaped object with a purple color, possibly made of plastic or metal. It is placed on a light-colored surface, likely the bottom of a box. The object appears to be composed of rectangular segments. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a cylindrical object, likely a mug or cup, with a handle on the side. It appears to be made of ceramic or metal and is placed on a light-colored surface, likely the bottom of a box. The object is positioned near the center of the image. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a cylindrical object, likely a mug or cup, with a handle on the side. It appears to be made of ceramic or metal and is placed on a light-colored surface, likely the bottom of a box. The object is positioned near the center of the image. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a cylindrical object, likely a mug or cup, with a handle on the side. It appears to be made of ceramic or metal and is placed on a light-colored surface, likely the bottom of a box. The object is positioned near the right side of the image. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a cylindrical object, likely a mug or cup, with a handle on the side. It appears to be made of ceramic or metal and is placed on a light-colored surface, likely the bottom of a box. The object is positioned near the right side of the image. There is also a black cable or wire visible near the object."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a flat surface with a poster or book cover visible on the right side. The cover has text and colorful graphics. There is a black cable or wire visible near the bottom right corner. The surface appears to be light-colored, likely the bottom of a box."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a flat surface with a poster or book cover visible on the right side. The cover has text and colorful graphics. There is a black cable or wire visible near the bottom right corner. The surface appears to be light-colored, likely the bottom of a box."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows a light-colored surface, likely the bottom of a box. There is a beige or light-colored object, possibly a hat or fabric, on the right side. A black cable or wire is visible near the bottom center. The surface appears to be plain with no visible text or graphics."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box, likely the bottom. The surface is a light gray color. A white, rectangular object, approximately 20 cm long and 2 cm wide, runs diagonally across the frame from the upper left to the lower right. A dark, possibly black, cable or cord is visible in the lower right corner, appearing to be coiled or bent. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box, likely the bottom. The surface is a light gray color. A white, slightly curved plastic or rubber strip, approximately 25 cm long and 1.5 cm wide, runs diagonally across the frame from the upper left to the lower right. It appears to be a corner protector or edge guard. In the lower right corner, there is a black plastic clip, approximately 3 cm long and 1 cm wide, possibly used to secure the strip. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image depicts the interior corner of a box, likely the bottom. The surface is a light gray color. A white, slightly curved plastic or rubber strip, approximately 23 cm long and 1.3 cm wide, runs diagonally across the frame from the upper left to the lower right. It appears to be a corner protector or edge guard. In the lower right corner, there is a black plastic clip, approximately 2.5 cm long and 0.8 cm wide, possibly used to secure the strip. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box, likely the bottom, with a light gray surface. A white, slightly curved plastic or rubber strip, approximately 22 cm long and 1.2 cm wide, runs diagonally across the frame from the upper left to the lower right. It appears to be a corner protector or edge guard. In the lower right corner, there is a black plastic clip, approximately 2.3 cm long and 0.7 cm wide, possibly used to secure the strip. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box, likely the bottom, with a light gray surface. A white, slightly curved plastic or rubber strip, approximately 20 cm long and 1.1 cm wide, runs diagonally across the frame from the upper left to the lower right. It appears to be a corner protector or edge guard. In the lower right corner, there is a black plastic clip, approximately 2.1 cm long and 0.6 cm wide, possibly used to secure the strip. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box, likely the bottom, with a light gray surface. A white, slightly curved plastic or rubber strip, approximately 22 cm long and 1.2 cm wide, runs diagonally across the frame from the upper left to the lower right. It appears to be a corner protector or edge guard. In the lower right corner, there is a black plastic clip, approximately 2.3 cm long and 0.7 cm wide, possibly used to secure the strip. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image depicts the interior corner of a box, with a predominantly light blue-white surface. A thin, white cord or cable, approximately 25 cm long and 0.2 cm in diameter, stretches diagonally across the frame from the upper left to the lower right. In the lower right corner, there is a dark blue and black rectangular label, approximately 4 cm long and 2 cm wide, with the text 'SYSTEM DESIGN' visible. Attached to the cord near the bottom right is a small, black connector, roughly 1.5 cm long and 0.5 cm wide. The box bottom size is 45 cm x 33 cm. The lighting is uneven, creating a bright glare in the upper left corner. The item appears to be a cable or wire with a connector and a label attached."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a light blue-white surface. A black cable, approximately 30 cm long and 0.3 cm in diameter, runs diagonally across the frame from the upper left to the lower right. At the end of the cable, in the lower right corner, is a black connector, roughly 2 cm long and 0.7 cm wide. Attached to the cable is a rectangular label, approximately 5 cm long and 3 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a power cable with a connector and a label."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a light blue-white surface. A black cable, approximately 35 cm long and 0.3 cm in diameter, runs diagonally across the frame from the upper left to the lower right. At the end of the cable, in the lower right corner, is a black connector, roughly 2.5 cm long and 1 cm wide. Attached to the cable is a rectangular black label, approximately 6 cm long and 4 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a power cable with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a light-colored surface. A black cable, approximately 30 cm long and 0.3 cm in diameter, runs diagonally across the frame. At the end of the cable, in the lower right corner, is a black connector, roughly 2.5 cm long and 1 cm wide. Attached to the cable is a rectangular black label, approximately 6 cm long and 4 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a power cable with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a light-colored surface. A black cable, approximately 30 cm long and 0.3 cm in diameter, runs diagonally across the frame. At the end of the cable, in the lower right corner, is a black connector, roughly 2.5 cm long and 1 cm wide. Attached to the cable is a rectangular black label, approximately 6 cm long and 4 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a power cable with a connector and a label."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM DESIGN' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A white, flexible tube, approximately 40 cm long and 0.5 cm in diameter, runs diagonally across the frame. The tube appears to be made of plastic. At the end of the tube, in the lower right corner, is a black connector, roughly 2 cm long and 1 cm wide. Attached to the tube is a rectangular black label, approximately 7 cm long and 5 cm wide, with the text 'SYSTEM' visible. The box bottom size is 45 cm x 33 cm. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be a pneumatic or hydraulic hose with a connector and a label."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A thin, dark cable or wire, approximately 40 cm long, runs diagonally across the frame. The cable appears to be made of a flexible material. There is no visible connector or label attached to the cable. The lighting is uneven, with a bright glare in the upper left corner. The item appears to be an electrical cable or wire."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A small, dark object, possibly a clip or fastener, is located near the bottom right corner. The object appears to be metallic and is attached to the surface. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A small, dark object, possibly a pen or a similar elongated item, is located near the bottom right corner. The object appears to be made of plastic or metal. The lighting is uneven, with a bright glare in the upper left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A mug with a handle is located near the upper right corner. The mug appears to be ceramic and is light-colored. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A mug with a handle is located near the upper right corner. The mug appears to be ceramic and is light-colored. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A light-colored hat is located near the upper right corner. The hat appears to be made of fabric and has a brim. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A light-colored hat is located near the upper right corner. The hat appears to be made of fabric and has a brim. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A light-colored hat is located near the upper right corner. The hat appears to be made of fabric and has a brim. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A light-colored hat is located near the upper right corner. The hat appears to be made of fabric and has a brim. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A light-colored hat is located near the upper right corner. The hat appears to be made of fabric and has a brim. There is also a small, dark object, possibly a pen or similar elongated item, near the bottom left corner. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover and visible text is located near the upper right corner. The book is partially covering a light-colored hat, which appears to be made of fabric and has a brim. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover and visible text is located near the upper right corner. The book is partially covering a light-colored hat, which appears to be made of fabric and has a brim. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover and visible text is located near the upper right corner. The book is partially covering a light-colored hat, which appears to be made of fabric and has a brim. The lighting is uneven, with a bright glare in the lower right corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the upper right corner. Next to the book, there is a transparent plastic bag containing a dark object. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the upper right corner. Next to the book, there is a transparent plastic bag containing a dark object. A hand is visible holding the plastic bag. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the center. Next to the book, there is a light-colored hat with a strap. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the center. Next to the book, there is a light-colored hat with a strap. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the center. Next to the book, there is a light-colored hat with a strap. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the center. Next to the book, there is a light-colored hat with a strap. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A book with a dark cover titled 'System Design Interview' is located near the center. Next to the book, there is a light-colored hat with a strap. A hand is holding the book and hat. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A dark-colored wristwatch with a strap is located near the center. The watch is positioned diagonally across the surface. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": true,
+    "description": "The image shows the interior corner of a box with a white surface. A dark-colored wristwatch with a strap is located near the center. The watch is positioned diagonally across the surface. The lighting is uneven, with shadows visible in the lower left corner."
+  },
+  {
+    "is_the_same": false,
+    "description": "The image shows the interior corner of a box with a white surface. A small, dark-colored object is partially visible at the bottom center of the image. The object appears to have a pointed end and is positioned diagonally. The lighting is dim, with shadows visible in the lower part of the image."
+  }
+]
