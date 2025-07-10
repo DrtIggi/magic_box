@@ -94,8 +94,8 @@ def analyze_image(image_b64, prev_description, curr_image):
         "The item is on the bottom of the box. The picture was taken from the upper left corner. "
         "The box bottom size is 45 cm x 33 cm. Describe the item in the image in the most detailed format.\n"
         f"Give me the output in the following JSON format: {{'is_the_same': true|false, 'description': string}}. "
-        f"If you can see a human hand in the image, or any other human part => return {{'is_the_same': true, 'description': 'hand'}}\n"
-        f"If the box is empty, return {{'is_the_same': false, 'description': 'The box is empty, item has been taken'}}\n"
+        f"If you can see a human hand in the image, or any other human part => Give me the output in the following JSON format: {{'is_the_same': true, 'description': 'hand'}}\n"
+        f"If the box is empty, give me the output in the following JSON format {{'is_the_same': false, 'description': 'The box is empty, item has been taken'}}\n"
         f"This is the detailed description of the previous image: {prev_description}. "
         "Tell me if the item was replaced, return the structured output with the detailed description of the current image. Do not save in desription any information about previous item, try to identify the type of the item. "
         "Use centimeters if possible. Estimate if necessary."
@@ -127,21 +127,38 @@ def analyze_image(image_b64, prev_description, curr_image):
         raise Exception(f"Request failed: {response.status_code} - {response.text}")
 
 def clean_json_string(s):
-    """Convert malformed JSON from GPT to valid Python dict."""
+    """Convert GPT response into valid Python dict format, even if it's malformed or just a keyword."""
     s = s.strip()
+
+    # Remove Markdown-style code block
     if s.startswith("```") and s.endswith("```"):
         lines = s.splitlines()
         s = "\n".join(line for line in lines[1:] if not line.startswith("```"))
 
+    # Try parsing as JSON
     try:
-        # Try regular JSON
-        return json.loads(s)
+        parsed = json.loads(s)
+        if isinstance(parsed, dict):
+            return parsed
     except json.JSONDecodeError:
-        try:
-            # Fallback for GPT-style single-quoted Python dicts
-            return ast.literal_eval(s)
-        except Exception as e:
-            raise ValueError(f"Failed to parse response content: {e}")
+        pass
+
+    # Try parsing as Python literal (e.g. GPT may use single quotes)
+    try:
+        parsed = ast.literal_eval(s)
+        if isinstance(parsed, dict):
+            return parsed
+        elif isinstance(parsed, str):
+            return {"is_the_same": True, "description": parsed}
+    except Exception:
+        pass
+
+    # Final fallback: wrap as description
+    return {
+        "is_the_same": False,
+        "description": s
+    }
+
 
 def main():
     while True:
@@ -170,5 +187,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
