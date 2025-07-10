@@ -1,7 +1,8 @@
+
 import base64
 import requests, json, re, time
 import os
-
+from capture import capture_image_from_esp
 # Set your API key and base URL
 API_KEY = ""
 BASE_URL = "https://api.openai.com/v1"
@@ -12,7 +13,7 @@ DB_FILE = "db.json"
 def send_mattermost_notification(description, channel_id):
     url = "https://qa-minervamessenger.mpdl.mpg.de/api/v4/posts"
     headers = {
-        "Authorization": "Bearer ",
+        "Authorization": "Bearer qk6dzqoiw7bb8p3tkwdoaw4rtc",
         "Content-Type": "application/json"
     }
 
@@ -115,20 +116,36 @@ def clean_json_string(s):
         return "\n".join(line for line in lines[1:] if not line.startswith("```"))
     return s
 
+# def main():
+#     while True:
+#         image_path = "cup1.jpeg"
+#         if not os.path.exists(image_path):
+#             print("Image file not found.")
+#             continue
+
+#         # image_b64 = encode_image_to_base64(image_path)
+#         image_b64 = extract_last_base64_image("../output.txt")
+#         prev_description = get_last_description()
+
+#         try:
+#             result = analyze_image(image_b64, prev_description, os.path.basename(image_path))
+#             # result['prev_image'] = load_db()[-1]['curr_image'] if load_db() else None
+#             save_to_db(result)
+#             print("Result saved:", result)
+#             if not result.get("is_the_same"):
+#                 send_mattermost_notification(result.get("description"), "9mqes9m1x3remyr4r4wnz5jx3o")
+#         except Exception as e:
+#             print("Failed to analyze image:", e)
+#         time.sleep(30)
+
 def main():
     while True:
-        image_path = "cup1.jpeg"
-        if not os.path.exists(image_path):
-            print("Image file not found.")
-            continue
-
-        # image_b64 = encode_image_to_base64(image_path)
-        image_b64 = extract_last_base64_image("../output.txt")
+        print("Capturing image...")
+        image_b64 = capture_image_from_esp() # Or your port
         prev_description = get_last_description()
 
         try:
-            result = analyze_image(image_b64, prev_description, os.path.basename(image_path))
-            # result['prev_image'] = load_db()[-1]['curr_image'] if load_db() else None
+            result = analyze_image(image_b64, prev_description, "captured.jpg")
             save_to_db(result)
             print("Result saved:", result)
             if not result.get("is_the_same"):
@@ -136,6 +153,7 @@ def main():
         except Exception as e:
             print("Failed to analyze image:", e)
         time.sleep(30)
+
 
 if __name__ == "__main__":
     main()
