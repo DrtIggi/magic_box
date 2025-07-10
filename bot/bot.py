@@ -1,4 +1,3 @@
-
 import base64
 import requests, json, re, time
 import os
@@ -78,6 +77,7 @@ def analyze_image(image_b64, prev_description, curr_image):
         "The item is on the bottom of the box. The picture was taken from the upper left corner. "
         "The box bottom size is 45 cm x 33 cm. Describe the item in the image in the most detailed format.\n"
         f"Give me the output in the following JSON format: {{'is_the_same': true|false, 'description': string}}. "
+        "If you can see a human hand in the image, return {'is_the_same': true, 'description': 'hand'}\n"
         f"This is the detailed description of the previous image: {prev_description}. "
         "Tell me if the item was replaced, return the structured output with the detailed description of the current image. Do not save in desription any information about previous item, try to identify the type of the item. "
         "Use centimeters if possible. Estimate if necessary."
@@ -116,28 +116,6 @@ def clean_json_string(s):
         return "\n".join(line for line in lines[1:] if not line.startswith("```"))
     return s
 
-# def main():
-#     while True:
-#         image_path = "cup1.jpeg"
-#         if not os.path.exists(image_path):
-#             print("Image file not found.")
-#             continue
-
-#         # image_b64 = encode_image_to_base64(image_path)
-#         image_b64 = extract_last_base64_image("../output.txt")
-#         prev_description = get_last_description()
-
-#         try:
-#             result = analyze_image(image_b64, prev_description, os.path.basename(image_path))
-#             # result['prev_image'] = load_db()[-1]['curr_image'] if load_db() else None
-#             save_to_db(result)
-#             print("Result saved:", result)
-#             if not result.get("is_the_same"):
-#                 send_mattermost_notification(result.get("description"), "9mqes9m1x3remyr4r4wnz5jx3o")
-#         except Exception as e:
-#             print("Failed to analyze image:", e)
-#         time.sleep(30)
-
 def main():
     while True:
         print("Capturing image...")
@@ -146,10 +124,13 @@ def main():
 
         try:
             result = analyze_image(image_b64, prev_description, "captured.jpg")
-            save_to_db(result)
-            print("Result saved:", result)
-            if not result.get("is_the_same"):
-                send_mattermost_notification(result.get("description"), "9mqes9m1x3remyr4r4wnz5jx3o")
+            if(result.get("description") == "hand"):
+                pass
+            else:
+                save_to_db(result)
+                print("Result saved:", result)
+                if not result.get("is_the_same"):
+                    send_mattermost_notification(result.get("description"), "9mqes9m1x3remyr4r4wnz5jx3o")
         except Exception as e:
             print("Failed to analyze image:", e)
         time.sleep(30)
@@ -157,3 +138,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
