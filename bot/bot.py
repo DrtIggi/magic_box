@@ -198,20 +198,25 @@ def clean_json_string(s):
         "is_the_same": False,
         "description": s
     }
-
-
 def main():
     while True:
         print("Capturing image...")
-        image_b64 = capture_image_from_esp()
+        try:
+            image_b64 = capture_image_from_esp()
+        except Exception as e:
+            print("Failed to capture image:", e)
+            time.sleep(30)
+            continue  # Skip this iteration if image capture fails
+
         image = base64_to_image(image_b64)
         curr_hash = compute_image_hash(image)
         prev_hash = get_last_hash()
+
         if is_different_image(curr_hash, prev_hash):
             prev_description = get_last_description()
             try:
                 result = analyze_image(image_b64, prev_description, "captured.jpg")
-                if(result.get("description") == "hand"):
+                if result.get("description") == "hand":
                     print("Hand detected, skipping.")
                 else:
                     result["hash"] = curr_hash
@@ -223,6 +228,7 @@ def main():
                 print("Failed to analyze image:", e)
         else:
             print("Image is visually similar. Skipping analysis.")
+        
         time.sleep(30)
 
 if __name__ == "__main__":
