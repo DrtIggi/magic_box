@@ -97,3 +97,12 @@ def capture_image_from_esp(timeout=15):
     base64_image = ''.join(image_data)
     return base64_image
 
+def kill_process_tree(pid):
+    try:
+        parent = psutil.Process(pid)
+        for child in parent.children(recursive=True):
+            child.kill()
+        parent.kill()
+    except psutil.NoSuchProcess:
+        pass
+
