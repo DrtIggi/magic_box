@@ -126,6 +126,38 @@ def analyze_image(image_b64, prev_description, curr_image):
     else:
         raise Exception(f"Request failed: {response.status_code} - {response.text}")
 
+# def clean_json_string(s):
+#     """Convert GPT response into valid Python dict format, even if it's malformed or just a keyword."""
+#     s = s.strip()
+
+#     # Remove Markdown-style code block
+#     if s.startswith("```") and s.endswith("```"):
+#         lines = s.splitlines()
+#         s = "\n".join(line for line in lines[1:] if not line.startswith("```"))
+
+#     # Try parsing as JSON
+#     try:
+#         parsed = json.loads(s)
+#         if isinstance(parsed, dict):
+#             return parsed
+#     except json.JSONDecodeError:
+#         pass
+
+#     # Try parsing as Python literal (e.g. GPT may use single quotes)
+#     try:
+#         parsed = ast.literal_eval(s)
+#         if isinstance(parsed, dict):
+#             return parsed
+#         elif isinstance(parsed, str):
+#             return {"is_the_same": True, "description": parsed}
+#     except Exception:
+#         pass
+
+#     # Final fallback: wrap as description
+#     return {
+#         "is_the_same": False,
+#         "description": s
+#     }
 def clean_json_string(s):
     """Convert GPT response into valid Python dict format, even if it's malformed or just a keyword."""
     s = s.strip()
@@ -149,6 +181,14 @@ def clean_json_string(s):
         if isinstance(parsed, dict):
             return parsed
         elif isinstance(parsed, str):
+            # Avoid double-wrapping if already in expected format
+            if parsed.startswith("{") and parsed.endswith("}"):
+                try:
+                    inner = ast.literal_eval(parsed)
+                    if isinstance(inner, dict) and "is_the_same" in inner and "description" in inner:
+                        return inner
+                except Exception:
+                    pass
             return {"is_the_same": True, "description": parsed}
     except Exception:
         pass
